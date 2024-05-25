@@ -1,0 +1,24 @@
+{
+  "name": "my-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@wagmi/connectors": "^5.0.6",
+    "@wagmi/core": "^2.10.4",
+    "@web3modal/ethers": "^4.2.2",
+    "@web3modal/wagmi": "^4.2.2",
+    "ethers": "^6.12.1",
+    "viem": "^2.12.1",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
