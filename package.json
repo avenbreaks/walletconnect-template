@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "serve": "vite --port 3000",
     "build": "vite build",
-    "preview": "vite preview"
+    "lint": "vite lint"
   },
   "dependencies": {
     "@wagmi/connectors": "^5.0.6",
